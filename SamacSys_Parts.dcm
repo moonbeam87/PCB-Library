@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LM2902AWYDT
+D STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf
+$ENDCMP
+#
+$CMP SJ2-35954B-SMT-TR
+D Phone Connectors 3.5mm Audio Jack SMT 4conductr Tip switc-1
+K
+F https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices
+$ENDCMP
+#
+$CMP MJE15034G
+D 
+K
+F http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF
+$ENDCMP
+#
+$CMP MJE15035G
+D 
+K
+F http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF
+$ENDCMP
+#
+#End Doc Library

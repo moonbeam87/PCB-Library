@@ -1,0 +1,136 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM2902AWYDT
+#/424416/647921/2.49/14/4/Integrated Circuit
+DEF LM2902AWYDT IC 0 30 Y Y 1 F N
+F0 "IC" 2650 300 50 H V L CNN
+F1 "LM2902AWYDT" 2650 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 2650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1621277.pdf" 2650 0 50 H I L CNN
+F4 "STMicroelectronics LM2902AWYDT, Quad Low Power Op Amp, 1.3MHz, 3  30 V, 14-Pin SOIC" 2650 -100 50 H I L CNN "Description"
+F5 "1.75" 2650 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 2650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM2902AWYDT" 2650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LM2902AWYDT" 2650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM2902AWYDT" 2650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 2650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 2650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUTPUT_1 1 0 0 200 R 50 50 0 0 P
+X INVERTING_INPUT1 2 0 -100 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT_1 3 0 -200 200 R 50 50 0 0 P
+X VCC+ 4 0 -300 200 R 50 50 0 0 P
+X NON-INVERTING_INPUT2 5 0 -400 200 R 50 50 0 0 P
+X INVERTING_INPUT_2 6 0 -500 200 R 50 50 0 0 P
+X OUTPUT2 7 0 -600 200 R 50 50 0 0 P
+X OUTPUT_4 14 2800 0 200 L 50 50 0 0 P
+X INVERTING_INPUT_4 13 2800 -100 200 L 50 50 0 0 P
+X NON-INVERTING_INPUT4 12 2800 -200 200 L 50 50 0 0 P
+X VCC- 11 2800 -300 200 L 50 50 0 0 P
+X NON-INVERTING_INPUT3 10 2800 -400 200 L 50 50 0 0 P
+X INVERTING_INPUT3 9 2800 -500 200 L 50 50 0 0 P
+X OUTPUT_3 8 2800 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2600 100 2600 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SJ2-35954B-SMT-TR
+#/11574060/647921/2.49/5/3/Switch
+DEF SJ2-35954B-SMT-TR S 0 30 Y Y 1 F N
+F0 "S" 1350 300 50 H V L CNN
+F1 "SJ2-35954B-SMT-TR" 1350 200 50 H V L CNN
+F2 "SJ235954BSMTTR" 1350 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices" 1350 0 50 H I L CNN
+F4 "Phone Connectors 3.5mm Audio Jack SMT 4conductr Tip switc-1" 1350 -100 50 H I L CNN "Description"
+F5 "4.15" 1350 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SJ2-35954B-SMT-TR" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-SJ2-35954BSMT-TR" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ2-35954B-SMT-TR?qs=DXv0QSHKF4xFg%252BzFD15Yig%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SJ2-35954B-SMT-TR" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sj2-35954b-smt-tr/cui-devices" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SLEEVE 1 0 0 200 R 50 50 0 0 P
+X TIP 2 1500 -100 200 L 50 50 0 0 P
+X RING1 3 0 -100 200 R 50 50 0 0 P
+X RING2 4 1500 0 200 L 50 50 0 0 P
+X TIP_SWITCH 10 1500 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MJE15034G
+#/225703/647921/2.49/3/3/Transistor
+DEF MJE15034G Q 0 30 Y Y 1 F N
+F0 "Q" 650 300 50 H V L CNN
+F1 "MJE15034G" 650 200 50 H V L CNN
+F2 "TO254P483X1010X2035-3P" 650 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF" 650 0 50 H I L CNN
+F4 "" 650 -100 50 H I L CNN "Description"
+F5 "4.83" 650 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MJE15034G" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-MJE15034G" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/MJE15034G?qs=HVbQlW5zcXV7QTziNO9oMQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MJE15034G" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mje15034g/on-semiconductor?region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X B 1 0 0 200 R 50 50 0 0 P
+X C 2 0 -100 200 R 50 50 0 0 P
+X E 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MJE15035G
+#/225704/647921/2.49/3/3/Transistor
+DEF MJE15035G Q 0 30 Y Y 1 F N
+F0 "Q" 650 300 50 H V L CNN
+F1 "MJE15035G" 650 200 50 H V L CNN
+F2 "TO254P483X1010X2035-3P" 650 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF" 650 0 50 H I L CNN
+F4 "" 650 -100 50 H I L CNN "Description"
+F5 "4.83" 650 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MJE15035G" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-MJE15035G" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/MJE15035G?qs=HVbQlW5zcXXa%252Byhv1vIoqQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MJE15035G" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mje15035g/on-semiconductor?region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X B 1 0 0 200 R 50 50 0 0 P
+X C 2 0 -100 200 R 50 50 0 0 P
+X E 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
