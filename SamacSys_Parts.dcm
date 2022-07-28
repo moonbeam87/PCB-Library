@@ -30,4 +30,76 @@ K
 F http://www.onsemi.com/pub/Collateral/MJE15034-D.PDF
 $ENDCMP
 #
+$CMP TPS2483PW
+D 36-V hot swap controller with digital power monitoring
+K
+F http://www.ti.com/lit/gpn/tps2483
+$ENDCMP
+#
+$CMP OPA333AIDBVR
+D 1.8V, 17A, microPower, Precision, Zero-Drift CMOS Op Amp 
+K
+F http://www.ti.com/lit/gpn/opa333
+$ENDCMP
+#
+$CMP IPT015N10N5
+D Trans MOSFET N-CH 100V 300A Automotive 9-Pin(8+Tab) HSOF T/R
+K
+F https://datasheet.lcsc.com/szlcsc/Infineon-Technologies-IPT015N10N5ATMA1_C108964.pdf
+$ENDCMP
+#
+$CMP ICL7107SCPLZ
+D LED Display Drivers ADC 3 5 DIG LED DRVR COM
+K
+F https://www.renesas.com/en-us/www/doc/datasheet/icl7106-07-07s.pdf
+$ENDCMP
+#
+$CMP LMC7660IM_NOPB
+D 1.5-V to 10-V switched capacitor voltage converter
+K
+F http://www.ti.com/lit/ds/symlink/lmc7660.pdf
+$ENDCMP
+#
+$CMP LM317LBDG
+D Voltage regulator,LM317LBD 37V ON Semiconductor LM317LBDG, Single Linear Voltage Regulator, 100mA Adjustable 1.2  37 V, +/-4%, 8-Pin SOIC
+K
+F http://www.onsemi.com/pub/Collateral/LM317L-D.PDF
+$ENDCMP
+#
+$CMP TLV9052IDGKR
+D Operational Amplifiers - Op Amps OP AMP
+K
+F http://www.ti.com/lit/ds/symlink/tlv9052.pdf
+$ENDCMP
+#
+$CMP TLV2772CP
+D TLV2772CP, Dual Operational Amplifier 5.1MHz CMOS, Rail-Rail, 3 V, 5 V, 8-Pin PDIP
+K
+F http://www.ti.com/lit/ds/symlink/tlv2770a.pdf
+$ENDCMP
+#
+$CMP INA117P-BI
+D Operational Amplifier, 1 Func, 1000uV Offset-Max, 0.2MHz Band Width, BIPolar, PDIP8
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/TXII/TXII-S-A0002515977/TXII-S-A0002515851-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+$CMP DG408DJZ
+D Switches/MUXs/Crosspoints Single 8-Channel/Differential 4-Channel, CMOS Analog Multiplexers
+K
+F https://www.renesas.com/en-us/www/doc/datasheet/dg408-09.pdf
+$ENDCMP
+#
+$CMP SRD-05VDC-SL-C
+D Relay
+K
+F http://files.microjpm.webnode.com/200001010-dda41de9e1/Songle%20Relay%20Datasheet.pdf
+$ENDCMP
+#
+$CMP 39544-3002
+D Fixed Terminal Blocks 5.08MM FIXED 2P VERTICAL BLK
+K
+F https://componentsearchengine.com/Datasheets/2/39544-3002.pdf
+$ENDCMP
+#
 #End Doc Library
